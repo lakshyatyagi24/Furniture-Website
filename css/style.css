@@ -27,7 +27,7 @@
         .nav-furniture{
           margin-top: 5px;margin-bottom: 10px;
            text-transform: uppercase;
-           background: linear-gradient(to left, #870000, #190a05);
+           background-color: grey;
            padding: 15px 30px;
           font-size: 15px;
         position: sticky;
@@ -124,4 +124,13 @@
             text-transform: uppercase;
             font-family: 'Pacifico', cursive;
             border-radius: 45px;
+        }
+        .bodybg{
+          background-color: #f8f8ff;
+        }
+        .divbg{
+          background-color: rgb(40,40,40);
+        }
+        .footerbg{
+          background-color: grey;
         }
