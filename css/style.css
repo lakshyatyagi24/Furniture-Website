@@ -1,19 +1,29 @@
-  .nav-a{
-            margin-left: 20px;
-            color: #fff;
-            font-size: 14px;
-            text-transform: uppercase;
-            font-family: 'Trade Winds', ;
-        }
-        .slide{
-            display: none;
-            margin-top: 50px;
-             margin-top:0px; height:500px;width:1100px;
-            border-radius:;
-            margin-bottom: 10px;
-  box-shadow: 2px 2px #a35426;
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Simonetta&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Federant&display=swap");
 
-        }input[type=text], select, textarea {
+.nav-a {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Trade Winds";
+}
+.slide {
+  display: none;
+  margin-top: 50px;
+  margin-top: 0px;
+  height: 500px;
+  width: 1100px;
+  border-radius: 0;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px #a35426;
+}
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -21,107 +31,104 @@
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-        .nav-furniture{
-          margin-top: 5px;margin-bottom: 10px;
-           text-transform: uppercase;
-           background: linear-gradient(to left, #870000, #190a05);
-           padding: 15px 30px;
-          font-size: 15px;
-        position: sticky;
-          border-radius: 125px 120px;
-
-        }
-        table, th, td {
+.nav-furniture {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  background: linear-gradient(to left, #870000, #190a05);
+  padding: 15px 30px;
+  font-size: 15px;
+  position: sticky;
+  border-radius: 125px 120px;
+}
+table,
+th,
+td {
   border: 2px solid #000;
   border-collapse: collapse;
 }
-        .table-support {
-          font-size: 25px;
-          color: #e4e8f0;
-          padding: 20px 20px;
-          background-color: #3e8752;
-          text-transform: uppercase;
-          font-weight: 500;
-
-        }
-        .table-row{
-          font-size:20px;
-          color:#ad0c3d;
-          font-weight: 300;
-          padding: 5px 20px;
-        }
-        .heading{
-          margin-left: 40%;
-          font-size: 35px;
-          color:#a63505;
-          font-weight: 600;
-        }
-        .footer .footer_top {
-    padding-top: 45px;
-    padding-bottom: 45px;
+.table-support {
+  font-size: 25px;
+  color: #e4e8f0;
+  padding: 20px 20px;
+  background-color: #3e8752;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.footer_widget{
+.table-row {
+  font-size: 20px;
+  color: #ad0c3d;
+  font-weight: 300;
+  padding: 5px 20px;
+}
+.heading {
+  margin-left: 40%;
+  font-size: 35px;
+  color: #a63505;
+  font-weight: 600;
+}
+.footer .footer_top {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.footer_widget {
   color: #fff;
   padding-left: 25px;
 
-  font-size:15px;
+  font-size: 15px;
   text-transform: uppercase;
 }
-.footer_widget a{
+.footer_widget a {
   color: #fff;
-  font-size:15px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
-.footer_widget a:hover{
+.footer_widget a:hover {
   color: #fff;
-  font-size:15px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
+.info {
+  margin: 25px 35px;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
+.info1 {
+}
+.info1 a {
+  margin-left: 150px;
+  position: relative;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
 
-        .info{
-          margin: 25px 35px;
-          padding:15px 15px;
-          font-size: 20px;
-          font-weight: 300;
-          color:#fff;
-          text-transform: uppercase;
-        }
-        .info1{
-
-        }
-        .info1 a{
-
-          margin-left: 150px;
-          position: relative;
-          padding:15px 15px;
-          font-size: 20px;
-          font-weight: 300;
-          color:#fff;
-          text-transform: uppercase;
-
-        }
-
-        .nav-a:hover{
-            margin-left: 20px;
-            background-color: azure;
-            padding: 10px 10px;
-            color: cornflowerblue;
-            color: #000;
-            font-size: 14px;
-            text-transform: uppercase;
-            font-family: 'Trade Winds', ;
-        }
-        .nav-a:active{
-            margin-left: 20px;
-            background-color: azure;
-            padding: 10px 10px;
-            color: cornflowerblue;
-            text-transform: uppercase;
-            font-family: 'Pacifico', cursive;
-            border-radius: 45px;
-        }
+.nav-a:hover {
+  margin-left: 20px;
+  background-color: azure;
+  padding: 10px 10px;
+  color: cornflowerblue;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Trade Winds";
+}
+.nav-a:active {
+  margin-left: 20px;
+  background-color: azure;
+  padding: 10px 10px;
+  color: cornflowerblue;
+  text-transform: uppercase;
+  font-family: "Pacifico", cursive;
+  border-radius: 45px;
+}
