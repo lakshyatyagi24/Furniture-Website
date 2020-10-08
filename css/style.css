@@ -6,15 +6,8 @@
             text-transform: uppercase;
             font-family: 'Trade Winds', ;
         }
-        .slide{
-            display: none;
-            margin-top: 50px;
-             margin-top:0px; height:500px;width:1100px;
-            border-radius:;
-            margin-bottom: 10px;
-  box-shadow: 2px 2px #a35426;
 
-        }input[type=text], select, textarea {
+        input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -135,3 +128,25 @@
         .footerbg{
           background-color: grey;
         }
+
+/* Slider styling */
+.container{
+  width: 100%!important;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 100%;
+margin: auto;
+}
+.carousel-inner{
+  height: 500px;
+  border-radius: 10px;
+}
+.item img{          
+  width: 100%!important;
+  height: 500px!important;
+}
+.carousel-control{
+  border-radius: 10px;
+}
+/* Slider styling ends */
