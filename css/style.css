@@ -5,6 +5,9 @@
             text-transform: uppercase;
             font-family: 'Trade Winds', ;
         }
+        a{
+          color:#fff;
+        }
         .slide{
             display: none;
             margin-top: 50px;
@@ -27,11 +30,11 @@
         .nav-furniture{
           margin-top: 5px;margin-bottom: 10px;
            text-transform: uppercase;
-           background: linear-gradient(to left, #870000, #190a05);
+           background-color: #212529;
            padding: 15px 30px;
           font-size: 15px;
         position: sticky;
-          border-radius: 125px 120px;
+          border-radius: 0px 0px 160px 160px;
 
         }
         table, th, td {
