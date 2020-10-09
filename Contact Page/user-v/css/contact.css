@@ -1,0 +1,82 @@
+.contactbox{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding:25px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: solid 2px #6495ED;
+  
+}
+
+.gifbox{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left:22%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+
+}
+
+
+ .center {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+
+}
+
+
+/* Rating */
+
+.rate-area{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  right:-10%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+
+}
+
+.rate-area:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+  clip: rect(0,0,0,0);
+}
+
+.rate-area:not(:checked) > label {
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.2;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+
+.rate-area:not(:checked) > label:before { content: '★ '; }
+
+.rate-area > input:checked ~ label {
+  color: gold;
+  text-shadow: 1px 1px #c60;
+  font-size: 450% !important;
+}
+
+.rate-area:not(:checked) > label:hover, .rate-area:not(:checked) > label:hover ~ label { color: gold; }
+
+.rate-area > input:checked + label:hover, .rate-area > input:checked + label:hover ~ label, .rate-area > input:checked ~ label:hover, .rate-area > input:checked ~ label:hover ~ label, .rate-area > label:hover ~ input:checked ~ label {
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+
+.rate-area > label:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
