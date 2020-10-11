@@ -21,11 +21,11 @@
         .nav-furniture{
           margin-top: 5px;margin-bottom: 10px;
            text-transform: uppercase;
-           background-color: grey;
+           background-color: #ACA03B;
            padding: 15px 30px;
           font-size: 15px;
         position: sticky;
-          border-radius: 125px 120px;
+          border-radius: 0px 0PX 120px 120px ;
 
         }
         table, th, td {
@@ -120,13 +120,13 @@
             border-radius: 45px;
         }
         .bodybg{
-          background-color: #f8f8ff;
+          background-color: #ACA03B;
         }
         .divbg{
           background-color: rgb(40,40,40);
         }
         .footerbg{
-          background-color: grey;
+          background-color: #212529;
         }
 
 /* Slider styling */
