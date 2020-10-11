@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Contact Us</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" >
+		<link rel="stylesheet" type="text/css" href="../css/user.css" >
+		<link rel="stylesheet" type="text/css" href="../css/contact.css" >
+
+
+		<style>
+			body {
+			  background-image: url('../img/909-9094453_neon-blue-background-background-company-profile-png.png');
+			  background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+
+	<body>	
+		<div class="gifbox"><img src="../img/contact.gif" height="200px"></div>
+			<div class="contactbox">
+			<center><img src="../img/contactus.png" height="100px" width ="220px"><br />
+				<form method="POST" action="./php/contact.php">
+					<i class="fas fa-user" style='color:gray'></i>
+					<input type="text" name="name" placeholder="Your Name" width="280px" required><br />
+					<i class="fas fa-envelope" style='color:gray'></i>
+					<input type="email" name="email" placeholder="Your Email" width="280px" required>
+					<br />
+					<i class="fa fa-comment" style='color:gray'></i>
+					<input type="text-area" name="message" placeholder="Type your message here." width="280px" style="height: 7rem;" required>
+					<br>
+					<button type="submit" class="btn" name="submit" value="submit" style="background-color: #f56;width:220px;">Send</button>
+				</form></center>
+			</div>
+		<div class="rate-area">
+			<ul class="rate-area">
+			<p>Rate the app</p>
+			  <input type="radio" id="5-star" name="rating" value="5" /><label for="5-star" title="Amazing">5 stars</label>
+			  <input type="radio" id="4-star" name="rating" value="4" /><label for="4-star" title="Good">4 stars</label>
+			  <input type="radio" id="3-star" name="rating" value="3" /><label for="3-star" title="Average">3 stars</label>
+			  <input type="radio" id="2-star" name="rating" value="2" /><label for="2-star" title="Not Good">2 stars</label>
+			  <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" title="Bad">1 star</label>
+			</ul>
+		</div>	
+		<br />
+		
+		
+		<div class="footer">
+		  <p>&copy; 2020, Online Furniture Store. All rights reserved.</p>
+		</div>
+		
+		
+	</body>
+	
+</html>
